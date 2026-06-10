@@ -7,6 +7,7 @@ Resumen operativo para humanos y agentes de Cursor. Detalle: [README.md](./READM
 | Campo | Valor |
 |-------|--------|
 | Ruta local | `/home/magnetico/Nexus/Predictive_Modeling` |
+| Repo GitHub | [`GyGSol/Predictive_Modeling`](https://github.com/GyGSol/Predictive_Modeling) |
 | Dominio | Dashboard Liga Argentina · predicciones Dixon-Coles (Poisson) · análisis de apuestas |
 | Jira | **PRODE** — [Predictive Modeling](https://feelibizaproperties.atlassian.net/jira/software/projects/PRODE) |
 | Engram | Proyecto individual `predictive_modeling` (topic keys `predictive_modeling/*`); datos locales en `.engram/` |

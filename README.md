@@ -6,6 +6,7 @@ Dashboard de estadísticas de la Liga Argentina con predicciones basadas en el m
 
 - **Backend:** Node.js, Express, MongoDB (Mongoose), Zod, Helmet
 - **Frontend:** React + Vite
+- **GitHub:** [GyGSol/Predictive_Modeling](https://github.com/GyGSol/Predictive_Modeling)
 - **Jira:** [PRODE — Predictive Modeling](https://feelibizaproperties.atlassian.net/jira/software/projects/PRODE)
 
 ## Inicio rápido
