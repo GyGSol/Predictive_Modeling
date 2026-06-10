@@ -1,0 +1,16 @@
+{
+  "mcpServers": {
+    "engram": {
+      "command": "/home/magnetico/.local/bin/engram",
+      "args": ["mcp", "--tools=agent", "--project", "predictive_modeling"],
+      "env": {
+        "ENGRAM_PROJECT": "predictive_modeling",
+        "ENGRAM_DATA_DIR": "/home/magnetico/Nexus/Predictive_Modeling/.engram"
+      }
+    },
+    "context7": {
+      "command": "npx",
+      "args": ["-y", "@upstash/context7-mcp"]
+    }
+  }
+}

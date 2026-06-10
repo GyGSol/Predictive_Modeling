@@ -1,0 +1,213 @@
+/**
+ * PRODE-7: Estilos base del dashboard
+ * T-Shirt: S
+ */
+:root {
+  color-scheme: dark;
+  font-family: Inter, system-ui, -apple-system, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #e8edf5;
+  background: #0b1220;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+.app-shell {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 2rem 1.25rem 3rem;
+}
+
+.hero {
+  margin-bottom: 2rem;
+}
+
+.hero h1 {
+  margin: 0 0 0.5rem;
+  font-size: clamp(1.75rem, 4vw, 2.5rem);
+}
+
+.hero p {
+  margin: 0;
+  color: #9fb0c9;
+}
+
+.status-card {
+  background: linear-gradient(135deg, #132038, #1a2a45);
+  border: 1px solid #243552;
+  border-radius: 16px;
+  padding: 1.25rem 1.5rem;
+}
+
+.status-card h2 {
+  margin: 0 0 0.75rem;
+  font-size: 1.1rem;
+}
+
+.status-ok {
+  color: #4ade80;
+  font-weight: 600;
+}
+
+.status-error {
+  color: #f87171;
+}
+
+.grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin-top: 1.5rem;
+}
+
+.metric {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.metric span {
+  display: block;
+  color: #94a3b8;
+  font-size: 0.85rem;
+}
+
+.metric strong {
+  font-size: 1.25rem;
+}
+
+.filters-card,
+.matches-card,
+.reports-card {
+  background: #111827;
+  border: 1px solid #1f2937;
+  border-radius: 16px;
+  padding: 1.25rem 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.filters-card h2,
+.matches-card h2,
+.reports-card h2 {
+  margin: 0 0 1rem;
+  font-size: 1.1rem;
+}
+
+.reports-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.reports-header h2 {
+  margin: 0;
+}
+
+.export-btn {
+  background: #2563eb;
+  color: #fff;
+  text-decoration: none;
+  padding: 0.5rem 0.9rem;
+  border-radius: 8px;
+  font-size: 0.9rem;
+}
+
+.export-btn:hover {
+  background: #1d4ed8;
+}
+
+.filters-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.filters-row label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+  font-size: 0.85rem;
+  color: #94a3b8;
+}
+
+.filters-row select,
+.filters-row input {
+  background: #0b1220;
+  border: 1px solid #243552;
+  border-radius: 8px;
+  color: #e8edf5;
+  padding: 0.5rem 0.65rem;
+  min-width: 160px;
+}
+
+.match-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.75rem;
+}
+
+.match-item {
+  background: #0b1220;
+  border: 1px solid #243552;
+  border-radius: 12px;
+  padding: 1rem;
+}
+
+.match-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  color: #94a3b8;
+  font-size: 0.85rem;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  background: #1e3a5f;
+  color: #93c5fd;
+  padding: 0.1rem 0.45rem;
+  border-radius: 999px;
+}
+
+.match-teams {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.prob-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(80px, 1fr));
+  gap: 0.5rem;
+}
+
+.prob-grid span {
+  display: block;
+  color: #94a3b8;
+  font-size: 0.8rem;
+}
+
+.expected-goals,
+.muted {
+  color: #9fb0c9;
+  font-size: 0.9rem;
+  margin: 0.75rem 0 0;
+}
